@@ -1,0 +1,59 @@
+@import url(./main.css);
+
+main {
+    margin: 5rem 10vw;
+}
+
+.menu_title {
+    font-size: 3rem;
+    font-weight: 800;
+    font-family: 'Roboto';
+    color: #8f8f8f;
+    margin-bottom: 0;
+}
+
+.menu_new-user{
+    background-color: #191919;
+    font-weight: 700;
+    color: white;
+    border-radius: .35rem;
+    font-size: 1.025rem;
+    text-transform: uppercase;
+    float: right;
+    width: 7%;
+    height: 1.6rem;
+    margin-bottom: 1rem;
+}
+
+.custom-table {
+    border: 1px solid #191919;
+}
+
+table.custom-table {
+  border: 0px solid #E50000;
+  background-color: #FFFFFF;
+  width: 100%;
+  text-align: center;
+}
+table.custom-table td, table.custom-table th {
+  border: 1px solid #D1D1D1;
+  padding: 1.5rem 1rem;
+  font-weight: normal;
+}
+table.custom-table tbody td {
+  font-size: 13px;
+}
+table.custom-table tr:nth-child(even) {
+  background: #FFFFFF;
+}
+table.custom-table thead {
+  background: #F9F9F9;
+  border-bottom: 0px solid #FFFFFF;
+}
+table.custom-table thead th {
+  font-size: 1.25rem;
+  font-weight: bold;
+  padding: 1rem 1rem;
+  color: #000000;
+  text-align: center;
+}
