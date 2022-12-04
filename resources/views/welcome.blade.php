@@ -28,10 +28,10 @@
             <p class="menu_option-label">Gestionar biblioteca virtual</p>
           </div>
         </a>
-        <a href="/registerExtra">
+        <a href="/libraryuser">
           <div class="menu_option">
-            <img class="menu_option-icon" src="{{ asset('assets/icons/gear-solid.svg')}}" alt="Users">
-            <p class="menu_option-label">Gestión administrador</p>
+            <img class="menu_option-icon" src="{{ asset('assets/icons/bars-solid.svg')}}" alt="Users">
+            <p class="menu_option-label">Libros Prestados</p>
           </div>
         </a>
       </section>

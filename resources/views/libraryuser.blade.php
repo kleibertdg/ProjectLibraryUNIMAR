@@ -12,27 +12,23 @@
     <x-header></x-header>
 
     <main>
-      <h3 class="menu_title">Gestionar Biblioteca Virtual</h3>
-
-      <a href="/registerLibrary">
-        <button class="menu_new-user">Agregar</button>
-      </a>
+      <h3 class="menu_title">Historial de prestamos</h3>
   
       <div>
-        <table class="custom-table">
+        <table class="custom-table librery-user">
             <thead>
-              <th>Codigo</th>
-              <th>Titulo</th>
-              <th>Autor</th>
-              <th>Pdf</th>
-              <th></th>
+              <th>Nombre y apellido</th>
+              <th>Codigo Carnet</th>
+              <th>Codigo libro</th>
+              <th>Nombre del libro</th>
+              <th>Fecha de adquisicion</th>
             </thead>
             <tr>
-              <th>123</th>
-              <th>La culpa es de la vaca</th>
-              <th>Jaime Lopera</th>
-              <th>Culpa.pdf</th>
-              <th>Edit</th>
+              <th>Peralta, Samuel</th>
+              <th>#26578</th>
+              <th>#56729</th>
+              <th>Don Quijote</th>
+              <th>23/11/21</th>
             </tr>
             <tr>
               <th></th>

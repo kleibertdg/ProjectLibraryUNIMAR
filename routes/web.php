@@ -41,4 +41,7 @@ Route::get('/registerLibrary', function () {
 Route::get('/registerExtra', function () {
     return view('registerExtra');
 });
+Route::get('/libraryuser', function () {
+    return view('libraryuser');
+});
 
