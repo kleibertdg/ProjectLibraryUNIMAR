@@ -25,7 +25,20 @@ Route::get('/adUser', function () {
 Route::get('/adminUser', function () {
     return view('adminUser');
 });
+
 Route::get('/registerUser', function () {
     return view('registerUser');
+});
+
+Route::get('/library', function () {
+    return view('library');
+});
+
+Route::get('/registerLibrary', function () {
+    return view('registerLibrary');
+});
+
+Route::get('/registerExtra', function () {
+    return view('registerExtra');
 });
 

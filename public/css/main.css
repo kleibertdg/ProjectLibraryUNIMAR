@@ -1,6 +1,13 @@
+/* Fonts */
 @import url(./fonts.css);
+
+/* components */
+
 @import url(./header.css);
 @import url(./footer.css);
+@import url(./input.css);
+
+/* Web */
 
 .unimar-logo {
     filter: invert(1) saturate(0) brightness(200%);
@@ -20,6 +27,11 @@ main {
 
 button {
     cursor: pointer;
+}
+
+button:active {
+    cursor: pointer;
+    color: var(--default-blue)
 }
 
 a {
