@@ -1,0 +1,25 @@
+@import url(./main.css);
+
+main {
+    margin: 5rem 10vw;
+}
+
+.menu_title {
+    font-size: 3rem;
+    font-weight: 800;
+    font-family: 'Roboto';
+    color: #8f8f8f;
+    margin-bottom: 0;
+}
+
+.menu_button-finish{
+    background-color: #191919;
+    font-weight: 700;
+    color: white;
+    border-radius: .35rem;
+    font-size: 1.025rem;
+    text-transform: uppercase;
+    width: 7%;
+    height: 1.6rem;
+    margin-bottom: 1rem;
+}
