@@ -1,6 +1,9 @@
+@props(['holder', 'label', 'type', 'value'])
+
 <div>
-  <div class="text-xl text-orange-500">{{ $title }}</div>
-    <div class="mt-4">
-        {{ $slot }}
-    </div>
- </div>
+  <div class="x-input_label">{{ $label }}</div>
+  <input class="x-input" 
+    type="{{ $type }}"
+    placeholder="Ingrese {{ $holder }}"
+    value="{{$value}}" />
+</div>

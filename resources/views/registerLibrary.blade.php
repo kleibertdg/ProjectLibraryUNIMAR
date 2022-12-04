@@ -15,12 +15,10 @@
       <h3 class="menu_title">Registro de solicitudes</h3>
 
       <form class="register-form"> 
-        <x-input label="Cedula" holder="12345678" type="number" value="" />
-        <x-input label="Primer nombre" holder="Nombre" type="text" value="" />
-        <x-input label="Segundo nombre" holder="..." type="text" value="" />
-        <x-input label="Primer pellido" holder="Apellido" type="text" value="" />
-        <x-input label="Segundo apellido" holder="..." type="text" value="" />
-        <x-input label="Carrera" holder="Carrera" type="text" value="" />
+        <x-input label="Tituylo" holder="12345678" type="number" value="" />
+        <x-input label="Adjuntar Pdf" holder="Nombre" type="file" value="" />
+        <x-input label="Autor" holder="..." type="text" value="" />
+        <x-input label="Genero" holder="Apellido" type="text" value="" />
       </form>
 
       <div class="menu_button-finish">
