@@ -1,0 +1,43 @@
+@import url(./main.css);
+
+header {
+    background-color: var(--default-blue);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.125rem 1.5rem;
+}
+
+header  div{
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+
+header button {
+    width: 12rem;
+    height: 2.5rem;
+    font-weight: medium;
+    font-size: 1.25rem;
+    color: white;
+    padding: .2rem;
+    border-radius: .76rem;
+    border: solid 1px white;
+    background-color: transparent;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+header button:hover {
+    background-color: ;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background: linear-gradient(241.54deg,#067be2 14.79%,#ffffff00 96.15%);
+    transform: scale(.98);
+}
+
+.header_label {
+    font-size: 3rem;
+    letter-spacing: .1rem;
+    color: white;
+    font-family: 'alfa';
+}

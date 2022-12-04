@@ -1,0 +1,51 @@
+@import url(./main.css);
+
+main {
+    margin: 5rem 10vw;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 20rem;
+    column-gap: 5%;
+    margin-top: 6rem;
+}
+
+.menu_title {
+    font-size: 3.25rem;
+    font-weight: 800;
+    font-family: 'Roboto';
+    color: #8f8f8f
+}
+
+.menu_option {
+    background-color: #e2e2e2;
+    border-radius: 1.25rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+}
+
+.menu_option:hover {
+    transform: scale(.95);
+}
+
+
+.menu_option-icon {
+    height: 50%;
+    filter: invert(57%) sepia(4%) saturate(17%) hue-rotate(330deg) brightness(100%) contrast(85%);
+}
+
+.menu_option-label {
+    font-size: 1.35rem;
+    margin-top: 3rem;
+    font-weight: 600;
+    color: var(--default-blue);
+    text-decoration: none;
+}
