@@ -12,15 +12,15 @@
     <x-header></x-header>
 
     <main>
-      <h3 class="menu_title">Registro de solicitudes</h3>
+      <h3 class="menu_title">Extra view</h3>
 
       <form class="register-form"> 
-        <x-input label="Cedula" holder="12345678" type="number" value="" />
-        <x-input label="Primer nombre" holder="Nombre" type="text" value="" />
-        <x-input label="Segundo nombre" holder="..." type="text" value="" />
-        <x-input label="Primer pellido" holder="Apellido" type="text" value="" />
-        <x-input label="Segundo apellido" holder="..." type="text" value="" />
-        <x-input label="Carrera" holder="Carrera" type="text" value="" />
+        <x-input label="Informacion" holder="....." type="number" value="" />
+        <x-input label="Informacion" holder="....." type="text" value="" />
+        <x-input label="Informacion" holder="....." type="text" value="" />
+        <x-input label="Informacion" holder="....." type="text" value="" />
+        <x-input label="Informacion" holder="....." type="text" value="" />
+        <x-input label="Informacion" holder="....." type="text" value="" />
       </form>
 
       <div class="menu_button-finish">

@@ -1,0 +1,25 @@
+
+.x-input {
+  border-radius: .5rem;
+  height: 2.5rem;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: .2rem .5rem;
+  border: 0px solid;
+}
+
+.x-input[type="file"] {
+  border-radius: .5rem;
+  height: 2.5rem;
+  width: 100%;
+  padding: .2rem .5rem;
+  border: 0px solid;
+  box-shadow: unset;
+}
+
+.x-input_label {
+  margin-bottom: .76rem;
+  font-weight: 600;
+  font-size: 1.25rem;
+  color: var(--default-blue)
+}

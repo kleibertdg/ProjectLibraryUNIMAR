@@ -22,15 +22,18 @@
           </div>
         </a>
 
-        <div class="menu_option">
-          <img class="menu_option-icon" src="{{ asset('assets/icons/book-solid.svg')}}" alt="Users">
-          <p class="menu_option-label">Gestionar biblioteca virtual</p>
-        </div>
-
-        <div class="menu_option">
-          <img class="menu_option-icon" src="{{ asset('assets/icons/gear-solid.svg')}}" alt="Users">
-          <p class="menu_option-label">Gestión administrador</p>
-        </div>
+        <a href="/library">
+          <div class="menu_option">
+            <img class="menu_option-icon" src="{{ asset('assets/icons/book-solid.svg')}}" alt="Users">
+            <p class="menu_option-label">Gestionar biblioteca virtual</p>
+          </div>
+        </a>
+        <a href="/registerExtra">
+          <div class="menu_option">
+            <img class="menu_option-icon" src="{{ asset('assets/icons/gear-solid.svg')}}" alt="Users">
+            <p class="menu_option-label">Gestión administrador</p>
+          </div>
+        </a>
       </section>
     </main>
     <x-footer></x-footer>

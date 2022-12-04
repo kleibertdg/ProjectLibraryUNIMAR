@@ -13,6 +13,11 @@ main {
 }
 
 .menu_button-finish{
+    width: 100%;
+    text-align: center;
+}
+
+.menu_button-finish button{
     background-color: #191919;
     font-weight: 700;
     color: white;
@@ -22,4 +27,19 @@ main {
     width: 7%;
     height: 1.6rem;
     margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu-route {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.register-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+    column-gap: 4rem;
+    margin: 1.25rem 5vw;
 }

@@ -1,17 +1,23 @@
 <header>
-  <div>
-    <img src="{{ asset('assets/images/Picture1.png')}}" class="unimar-logo" />
+  <a href="/">
+    <div>
+      <img src="{{ asset('assets/images/Picture1.png')}}" class="unimar-logo" />
 
-    <span class="header_label">Biblioteca virtual</span>
-  </div>
+      <span class="header_label">Biblioteca virtual</span>
+    </div>
+  </a>
 
   <div>
     <a href="/">
       <button>Inicio</button>
     </a>
 
-    <button>Bibliografias</button>
+    <a href="/library">
+      <button>Bibliografias</button>
+    </a>
+    <a href="/adminUser">
+      <button>Usuarios</button>
+    </a>
 
-    <button>Usuarios</button>
   </div>
 </header>
