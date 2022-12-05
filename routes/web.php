@@ -13,6 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', function () {return view('loginVista');})->name('LoginUser');
+
+Route::get('/RegistroUser', function () {return view('registroVista');})->name('RegistroUser');
+
+Route::get('/Catalagos', function () {return view('Catalago');})->name('Catalagos');
+

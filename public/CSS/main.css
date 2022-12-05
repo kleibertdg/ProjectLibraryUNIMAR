@@ -1,0 +1,181 @@
+.bg-img{
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    filter: brightness(0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+/* footer */
+.footer{
+    text-align: center;
+    margin-top: auto;
+}
+
+.footer p{
+    color: #fff;
+}
+
+.footerNav{
+    text-align: center;
+    margin-top: auto;
+}
+
+.footerNav p{
+    color: #000000;
+}
+
+/* card de los libros */
+
+.title{
+    text-align: center;
+    font-size: 40px;
+    color: #6a6a6a;
+    margin-top: 100px;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.containerCatalago{
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.containerCatalago .card{
+    width: 330px;
+    height: 430px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+}
+
+.containerCatalago .card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.containerCatalago .card img{
+    width: 330px;
+    height: 225px;
+}
+
+
+.containerCatalago .card h5{
+    font-weight: 600;
+    margin-top: 25px;
+}
+
+.containerCatalago .card p{
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 15px;
+}
+
+.containerCatalago .card a {
+    font-weight: 500;
+    text-decoration: none;
+    color: #000203;
+}
+
+.containerCatalago .btnlink:hover{
+    background: #f6a700;
+}
+
+.containerCatalago .btnlink{
+    margin-top: 25px;
+}
+
+
+/* formularios de registro y login */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+* {
+    box-sizing: border-box;
+}
+.contenedor{
+    width: 100%;
+    padding: 15px;
+}
+.formulario{
+    background: #fff;
+    margin-top: 150px;
+    padding: 3px;
+}
+h1{
+    text-align: center;
+    color: #1a2537;
+    font-size: 40px;
+}
+input[type="text"],
+input[type="password"]{
+    font-size: 20px;
+    width: 82%;
+    padding: 10px;
+    border: none;
+}
+.input-contenedor{
+    margin-bottom: 15px;
+    border: 1px solid #aaa;
+}
+.icon{
+    min-width: 50px;
+    text-align: center;
+    color: #999;
+}
+.button{
+    border: none;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    background:  #f6a700;
+    padding: 15px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+.button:hover{
+    background: rgb(214, 211, 37);
+}
+p{
+    text-align: center;
+}
+.link{
+    text-decoration: none;
+      color: #1a2537;
+    font-weight: 600;
+}
+.link:hover{
+     color: cadetblue;
+}
+@media(min-width:768px)
+{
+    .formulario{
+        margin: auto;
+        width: 500px;
+        margin-top: 150px;
+        border-radius: 2%;
+    }
+}
