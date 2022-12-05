@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Laravel</title>
+    <title>Administrador</title>
     <link href="{{asset('css/welcome.css')}}" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
   </head>
@@ -12,13 +12,13 @@
     <x-header></x-header>
 
     <main>
-      <h3 class="menu_title">¡BIENVENIDO, admin</h3>
-      
+      <h3 class="menu_title">¡BIENVENIDO, admin!</h3>
+
       <section class="menu">
         <a href="/adminUser">
           <div class="menu_option">
             <img class="menu_option-icon" src="{{ asset('assets/icons/users-solid.svg')}}" alt="Users">
-            <p  class="menu_option-label">Administrar Usuarios</p>
+            <p  class="menu_option-label">Administrar usuarios</p>
           </div>
         </a>
 
@@ -31,7 +31,7 @@
         <a href="/libraryuser">
           <div class="menu_option">
             <img class="menu_option-icon" src="{{ asset('assets/icons/bars-solid.svg')}}" alt="Users">
-            <p class="menu_option-label">Libros Prestados</p>
+            <p class="menu_option-label">Historial de préstamos</p>
           </div>
         </a>
       </section>

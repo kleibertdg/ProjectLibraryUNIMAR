@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Laravel</title>
+    <title>Registro</title>
     <link href="{{asset('css/registerForms.css')}}" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
   </head>
@@ -12,9 +12,9 @@
     <x-header></x-header>
 
     <main>
-      <h3 class="menu_title">Registro de solicitudes</h3>
+      <h3 class="menu_title">Registro de solicitantes</h3>
 
-      <form class="register-form"> 
+      <form class="register-form">
         <x-input label="Cedula" holder="12345678" type="number" value="" />
         <x-input label="Primer nombre" holder="Nombre" type="text" value="" />
         <x-input label="Segundo nombre" holder="..." type="text" value="" />

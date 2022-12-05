@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Laravel</title>
+    <title>Gestionar biblioteca</title>
     <link href="{{asset('css/librery.css')}}" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
   </head>
@@ -17,21 +17,21 @@
       <a href="/registerLibrary">
         <button class="menu_new-user">Agregar</button>
       </a>
-  
+
       <div>
         <table class="custom-table">
             <thead>
-              <th>Codigo</th>
-              <th>Titulo</th>
+              <th>Código</th>
+              <th>Título</th>
               <th>Autor</th>
-              <th>Pdf</th>
+              <th>PDF</th>
               <th></th>
             </thead>
             <tr>
               <th>123</th>
               <th>La culpa es de la vaca</th>
               <th>Jaime Lopera</th>
-              <th>Culpa.pdf</th>
+              <th>culpa.pdf</th>
               <th>Edit</th>
             </tr>
             <tr>

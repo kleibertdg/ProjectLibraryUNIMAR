@@ -13,7 +13,7 @@
     </a>
 
     <a href="/library">
-      <button>Bibliografias</button>
+      <button>Bibliografías</button>
     </a>
     <a href="/adminUser">
       <button>Usuarios</button>

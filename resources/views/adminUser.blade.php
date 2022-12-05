@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Laravel</title>
+    <title>Registro</title>
     <link href="{{asset('css/librery.css')}}" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
   </head>
@@ -12,17 +12,17 @@
     <x-header></x-header>
 
     <main>
-      <h3 class="menu_title">Solicitantes Registrados</h3>
+      <h3 class="menu_title">Solicitantes registrados</h3>
 
       <a href="/registerUser">
         <button class="menu_new-user">Nuevo</button>
       </a>
-  
+
       <div>
         <table class="custom-table">
             <thead>
-              <th>Codigo</th>
-              <th>Cedula</th>
+              <th>Código</th>
+              <th>Cédula</th>
               <th>Primer nombre</th>
               <th>Segundo nombre</th>
               <th>Apellido</th>
@@ -35,9 +35,9 @@
               <th>28570456</th>
               <th>Manuel</th>
               <th>Jesus</th>
-              <th>Perez</th>
-              <th>Garcia</th>
-              <th>Ingenieria de sistemas</th>
+              <th>Pérez</th>
+              <th>García</th>
+              <th>Ingeniería de sistemas</th>
               <th>Edit</th>
             </tr>
             <tr>
