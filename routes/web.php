@@ -17,5 +17,6 @@ Route::get('/', function () {return view('loginVista');})->name('LoginUser');
 
 Route::get('/RegistroUser', function () {return view('registroVista');})->name('RegistroUser');
 
-Route::get('/Catalagos', function () {return view('Catalago');})->name('Catalagos');
+Route::get('/Catalago', function () {return view('Catalago');})->name('Catalago');
 
+Route::get('/home', function () {return view('home');})->name('home');
